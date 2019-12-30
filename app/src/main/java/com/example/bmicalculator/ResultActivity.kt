@@ -36,6 +36,6 @@ class ResultActivity : AppCompatActivity() {
                 imageView.setImageResource(
                     R.drawable.ic_sentiment_satisfied_black_24dp)
         }
-        toast("$bmi")
+        toast("$bmi")           //Anko를 적용한 트스트 코드
     }
 }

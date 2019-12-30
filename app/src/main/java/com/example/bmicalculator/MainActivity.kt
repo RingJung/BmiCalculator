@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        loadData()
 
         resultButton.setOnClickListener { //버튼 리스너
             saveData(heightEditText.text.toString().toInt(),
